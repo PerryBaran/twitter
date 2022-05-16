@@ -1,0 +1,13 @@
+.mainContainer {
+    display: inline-block;
+
+    width: 350px;
+    
+    margin-left: 42px;
+    margin-top: 5px;
+}
+
+.emptyContainer {
+    height: 44px;
+    width: 100%;
+}

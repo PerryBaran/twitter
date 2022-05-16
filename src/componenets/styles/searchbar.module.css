@@ -1,0 +1,52 @@
+.container {
+    position: fixed;
+
+    background-color: rgb(239, 243, 244);
+
+    height: 42px;
+    width: 350px;
+    
+    border-radius: 9999px;
+}
+
+.position {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+    height: 24px;
+    width: 100%;
+}
+.searchImg {
+    display: inline-block;
+
+    aspect-ratio: 1;
+    height: 100%;
+    
+    margin-right: 5px;
+
+    opacity: 0.5;
+}
+
+.searchImg > img {
+    aspect-ratio: 1;
+    height: 100%;
+}
+
+.searchInput {
+    display: inline-block;
+    
+    position: relative;
+    bottom: 7px;
+
+    background: none;
+
+    height: 100%;
+    width: calc(100% - 75px);
+
+    font-size: 0.9rem;
+    
+    border: none;
+}

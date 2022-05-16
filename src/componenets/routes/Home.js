@@ -1,18 +1,15 @@
 import React, { Component } from 'react';
-import Navbar from '../Navbar';
+import Sidebar from '../Sidebar.js';
 
 class Home extends Component {
     render() {
         return (
-            <div className='table'>
-                <div className='side'>
-                    <Navbar /> 
-                </div>
-                <div className='center'>
+            <div className="content">
+                <div className="main">
 
                 </div>
-                <div className='side'> 
-
+                <div className="sidebar">
+                   <Sidebar explore={false}/> 
                 </div>
             </div>
         );

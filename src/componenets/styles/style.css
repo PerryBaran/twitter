@@ -10,17 +10,34 @@ button {
 
 .table {
     display: grid;
-    grid-template-columns: 1fr 598px 1fr;
+    grid-template-columns: 1fr 2fr;
+    
+    min-height: 100vh;
 }
 
-.side {
-    height: 100vh;
+.nav {
+    height: 100%;
     width: 100%;
 }
 
-.center {
-    height: 100vh;
+.content {
+    display: grid;
+    grid-template-columns: 600px 1fr;
+
+    height: 100%;
     width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    
+
     border-right: 1px solid rgb(239, 243, 244);
     border-left: 1px solid rgb(239, 243, 244);
+}
+
+.sidebar {
+    height: 100%;
+    width: 100%;
 }
