@@ -37,8 +37,7 @@
 
 .navButtonContainer {
     width: 251px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 5px;
 }
 
 .navButton{
@@ -80,7 +79,7 @@
 
 .tweet {
     color: white;
-    background-color: rgb(29, 155, 240);
+    background-color: var(--twitterBlue);
     box-shadow: rgb(0 0 0 / 8%) 0px 8px 28px;
 
     height: 52px;
@@ -89,6 +88,8 @@
     border: none;
     border-radius: 9999px;
 
+    margin-top: 5px;
+
     font-size: 17px;
     font-weight: 800;
 }
@@ -96,7 +97,7 @@
 .profile {
     display: block;
 
-    position: absolute;
+    position: fixed;
     bottom: 10px;
 
     background: none;

@@ -2,7 +2,7 @@
     display: inline-block;
 
     width: 350px;
-    
+
     margin-left: 42px;
     margin-top: 5px;
 }
@@ -10,4 +10,99 @@
 .emptyContainer {
     height: 44px;
     width: 100%;
+}
+
+.follow {
+    background-color: var(--light-grey);
+
+    width: 100%;
+    
+    margin-top: 5px;
+    padding: 12px;
+
+    border-radius: 20px;
+}
+
+.followTitle {
+    margin-left: 10px;
+}
+
+.suggestion {
+    position: relative;
+
+    height: 55px;
+
+    margin-top: 5px;
+}
+
+.suggestionImg {
+    display: inline-block;
+
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    
+    aspect-ratio: 1;
+    height: 40px;
+
+    border-radius: 9999px;
+
+    overflow: hidden;
+}
+
+.suggestionImg > img {
+    height: 100%;
+}
+
+.suggestionNames {
+    display: inline-block;
+
+    width: fit-content;
+
+    text-align: left;
+    font-size: 15px;
+
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.displayName {
+    font-weight: bold;
+}
+
+.handle {
+    color: rgb(83, 100, 113);
+}
+
+.handle::before {
+    content: '@'
+}
+
+.followButton {
+    position: relative;
+    top: 10px;
+    float: right;
+
+    color: white;
+    background-color: black;
+
+    border: none;
+    border-radius: 9999px;
+
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    font-size: 14px;
+    font-weight: 700; 
+}
+
+.showMore {
+    color: var(--twitterBlue);
+    
+    margin-top: 10px;
+    margin-left: 10px;
+    
+    font-size: 15px;
 }
