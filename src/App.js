@@ -1,8 +1,9 @@
 import React from 'react';
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
-import SignIn from './componenets/routes/SignIn';
-import Home from './componenets/routes/Home';
-import Profile from './componenets/routes/Profile';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import SignIn from './componenets/routes/SignIn.js';
+import Home from './componenets/routes/Home.js';
+import Profile from './componenets/routes/Profile.js';
+import './componenets/styles/style.css';
 
 
 function App(props) {
