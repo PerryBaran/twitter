@@ -54,10 +54,19 @@ const Suggestion = (props) => {
 
 const Details = (props) => {
     return (
-        <div>
-            details
+        <div className={style.details}>
+            <Info text="Perry Baran © 2022" link="https://github.com/PerryBaran"/>
         </div>
     );
+}
+
+const Info = (props) => {
+    const {text, link} = props
+    return (
+        <div className={style.link}>
+            <a href={link}>{text}</a>
+        </div>
+    )
 }
 
 export default Sidebar;

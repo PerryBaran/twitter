@@ -1,0 +1,21 @@
+.topbar {
+    position:fixed;
+
+    height: 50px;
+    width: 600px;
+
+    padding-left: 16px;
+    padding-top: 5px;
+    backdrop-filter: blur(1em);
+    z-index: 1000;
+}
+
+.justHeading {
+    font-size: 20px;
+    margin-top: 7px;
+}
+
+.empty {
+    height: 50px;
+    width: 100%;
+}

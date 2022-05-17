@@ -71,7 +71,7 @@
 }
 
 .handle {
-    color: rgb(83, 100, 113);
+    color: var(--dark-grey);
 }
 
 .handle::before {
@@ -105,4 +105,18 @@
     margin-left: 10px;
     
     font-size: 15px;
+}
+
+.details {
+    padding: 12px;
+    font-size: 14px;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--dark-grey);
+}
+
+.link:hover {
+    text-decoration: underline;
 }

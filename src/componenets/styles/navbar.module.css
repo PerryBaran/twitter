@@ -146,7 +146,7 @@
 }
 
 .handle {
-    color: rgb(83, 100, 113);
+    color: var(--dark-grey);
 }
 
 .handle::before {
