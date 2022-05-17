@@ -1,0 +1,59 @@
+.tweet {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    border-bottom: 1px solid var(--light-grey);
+}
+
+.profileImg {
+    display: inline-block;
+
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    
+    aspect-ratio: 1;
+    height: 40px;
+
+    border-radius: 9999px;
+
+    overflow: hidden;
+}
+
+.profileImg > img {
+    height: 100%;
+}
+
+.composeTweet {
+    padding-left: 70px;
+}
+
+.composeTweet > textarea {
+    width: 500px;
+    height: inherit;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid var(--light-grey);
+    background: none;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+.composeTweet > button {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+
+    height: 36px;
+    width: 76px;
+    
+    background-color: var(--twitterBlue);
+    color: white;
+    border: none;
+    border-radius: 9999px;
+
+    font-size: 15px;
+    font-weight: 800;
+}

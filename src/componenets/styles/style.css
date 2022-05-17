@@ -53,3 +53,7 @@ a {
     text-decoration: inherit;
     color: inherit;
 }
+
+textarea:focus {
+    outline: 0;
+}
