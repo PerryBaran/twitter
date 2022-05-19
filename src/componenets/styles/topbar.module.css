@@ -6,16 +6,60 @@
 
     padding-left: 16px;
     padding-top: 5px;
+    
     backdrop-filter: blur(1em);
     z-index: 1000;
 }
 
 .justHeading {
-    font-size: 20px;
     margin-top: 7px;
+
+    font-size: 20px;
 }
 
 .empty {
     height: 50px;
     width: 100%;
+}
+
+.back {
+    display: inline-flex;
+    justify-content: center;
+
+    height: 40px;
+    width: 40px;
+
+    border-radius: 9999px;
+
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.back:hover {
+    background-color: var(--light-grey);
+}
+
+.back > img {
+    height: 60%;
+}
+
+.info {
+    display: inline-block;
+
+    position: relative;
+    top: 2px;
+
+    width: fit-content;
+    
+    margin-left: 20px;
+}
+
+.info > h1 {
+    font-size: 20px;
+}
+
+.info > p {
+    color: var(--dark-grey);    
+
+    font-size: 13px;
 }

@@ -17,7 +17,7 @@ function App(props) {
                 <Routes>
                     <Route path="/" element={<SignIn />} />
                     <Route path="/home" element={<Home />} />
-                    <Route path="/:id" element={<Profile />} />
+                    <Route path="/profile" element={<Profile />} />
                 </Routes>
             </Router>
         </div>
