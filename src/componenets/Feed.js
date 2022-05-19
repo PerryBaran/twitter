@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './styles/feed.module.css';
 import imgStyle from './styles/home.module.css';
+import months from './months.js'
 
 //images
 import reply from '../images/reply.png';
@@ -8,7 +9,6 @@ import retweet from '../images/retweet.png';
 import like from '../images/like.png';
 import share from '../images/share.png';
 
-const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
 const Feed = (props) => {
     const {tweets} = props

@@ -1,5 +1,9 @@
 .container {
     position: relative;
+
+    padding-bottom: 12px;
+    
+    border-bottom: 1px solid var(--light-grey);
 }
 
 .coverImg {
@@ -42,6 +46,11 @@
 .profileImg > img {
     max-height: 100%;
     max-width: 100%;
+}
+
+.contentContainer {
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
 .buttons {
@@ -112,4 +121,105 @@
 
     font-size: 18px;
     font-weight: bold;
+}
+
+.names {
+    padding-top: 12px;
+}
+
+.names > h2 {
+    color:(var(--black));
+
+    font-size: 20px;
+}
+
+.names > h3 {
+    color: var(--dark-grey);
+
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.names > h3::before {
+    content: '@';
+}
+
+.bio {
+    color:(var(--black));
+    
+    margin-top: 12px;
+
+    font-size: 15px;
+}
+
+.moreInfo {
+    color: var(--dark-grey);
+
+    margin-top: 10px;
+}
+
+.moreInfo > div {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.icon {
+    display: inline-flex;
+    justify-content: center;
+
+    aspect-ratio: 1;
+    height: 18px;
+}
+
+.icon > img {
+    max-height: 100%;
+    max-width: 100%;
+    opacity: 0.6;
+}
+
+.text {
+    display: inline-block;
+
+    position: relative;
+    bottom: 3px;
+
+    margin-left: 5px;
+}
+
+.joined::before {
+    content: 'Joined '
+}
+
+.follows {
+    display: inline-flex;
+
+    margin-top: 12px;
+}
+
+.follows > p {
+    margin-right: 20px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.follows > p:hover {
+    text-decoration: underline;
+}
+
+.following::after {
+    content: ' Following';
+
+    color: var(--dark-grey);
+
+    font-weight: 100;
+}
+
+.followers::after {
+    content: ' Followers';
+
+    color: var(--dark-grey);
+
+    font-weight: 100;
 }

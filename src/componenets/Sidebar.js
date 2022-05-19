@@ -56,6 +56,7 @@ const Details = (props) => {
     return (
         <div className={style.details}>
             <Info text="Perry Baran © 2022" link="https://github.com/PerryBaran"/>
+            <Info text="Icons by Freepik" link="https://www.flaticon.com/"/>
         </div>
     );
 }
